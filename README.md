@@ -3,21 +3,18 @@ U nastavku su navedene informatičke vještine, koje uključuju različite progr
 
 **Informatičke vještine**
 
-| Programski jezik / Alat  | Iskustvo |
-|--------------------------|----------|
-| Access | izrada sustava računa (kupci, artikli, stavke, računi) |
-| C++  | osnove programiranja, pokazivači, sortiranja, dinamičko alociranje, rekurzije, objektno orijentirano programiranje, funkcije, metode, klase, vezana lista, operacijski sustavi, prekidi, dretve, semafori, monitori, straničenje, signali, upravljanje jezgrama i procesima, strukture podataka, red, stog, binarno stablo, hrpa, općenito stablo, složenost koda, biblioteke, robot upravljan kontrolerom, programiranje senzora |
-| SQL Shell, Postgre SQL, DataGrip | relacije, ključevi, integriteti, osnovni i složeni upiti, ERA dijagram, UMP, tipovi veza, normalne forme, okidači, indeksi |
-| Oracle Apex | izrada aplikacije za funkciju održavanja Vodovod Pula |
-| Wireshark | slojevi, klijent-poslužitelj, DNS, TCP, UDP, MAC, LAN, IPv4, IPv6, presretanje prometa i paketa |
-| HTML, CSS, JavaScript | izrada web stranice hotela, bootstrap, validacije, JSON, GET, POST, REST servisi, izrada web stranice termi |
-| C#, .NET, Unity | dijagrami aktivnosti, slijeda, ERA model, klase, Use Case dijagrami, Windows aplikacija za evidenciju zaposlenika, razvoj vlastite 2D platformer videoigre |
-| Figma | persone, korisničke priče, skice, prototip, aplikacija za autoškolu |
-| Fritzing | shema elektroničkih sklopova robota |
-| 3D printeri | printanje dijelova za mehanički sat |
-| Solidity, Remix | rad u blockchainu, kriptovalutom, Ethernium, digitalni potpis, digitalni ugovori |
-| Tableau | zvjezdasta shema, skladište podataka, dimenzije, činjenice, ETL proces, OLAP |
-| Microsoft Dynamics Business Central | ERP sustav, vođenje poslovanja poduzeća, financije, nabava, skladište, prodaja |
+| Programski jezik | Alat | Iskustvo |
+|------------------|-------|----------|
+| C++  | Dev-C++, Visual Studio Code | osnove programiranja, pokazivači, sortiranja, dinamičko alociranje, rekurzije, objektno orijentirano programiranje, funkcije, metode, klase, vezana lista, operacijski sustavi, prekidi, dretve, semafori, monitori, straničenje, signali, upravljanje jezgrama i procesima, strukture podataka, red, stog, binarno stablo, hrpa, općenito stablo, složenost koda, biblioteke, robot upravljan kontrolerom, programiranje senzora |
+| C# | .NET, Visual Studio, Unity | dijagrami aktivnosti, slijeda, ERA model, klase, Use Case dijagrami, Windows aplikacija za evidenciju zaposlenika, razvoj vlastite 2D platformer videoigre |
+| HTML, CSS, JavaScript | Visual Studio Code | izrada web stranice hotela, bootstrap, validacije, JSON, GET, POST, REST servisi, izrada web stranice termi |
+| SQL | Shell, PostgreSQL, DataGrip, OracleApex, Tableau, Excel, Access | relacije, ključevi, integriteti, osnovni i složeni upiti, ERA dijagram, UMP, tipovi veza, normalne forme, okidači, indeksi, izrada aplikacije za funkciju održavanja Vodovod Pula, izrada sustava računa (kupci, artikli, stavke, računi), analiza podataka, zvjezdasta shema, skladište podataka, dimenzije, činjenice, ETL proces, OLAP |
+| Solidity | Remix IDE | rad u blockchainu, kriptovalutom, Ethernium, digitalni potpis, digitalni ugovori |
+| | Microsoft Dynamics Business Central | ERP sustav, vođenje poslovanja poduzeća, financije, nabava, skladište, prodaja |
+| | Figma | persone, korisničke priče, skice, prototip, aplikacija za autoškolu |
+| | Wireshark | slojevi, klijent-poslužitelj, DNS, TCP, UDP, MAC, LAN, IPv4, IPv6, presretanje prometa i paketa |
+| | 3D printeri | praksa, printanje dijelova za mehanički sat |
+| | Fritzing | shema elektroničkih sklopova robota |
 
 **Organizacijske vještine**
 
