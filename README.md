@@ -10,7 +10,7 @@ U nastavku su navedene informatičke vještine, koje uključuju različite progr
 | HTML, CSS, JavaScript | Visual Studio Code | izrada web stranice hotela, bootstrap, validacije, JSON, GET, POST, REST servisi, izrada web stranice termi |
 | SQL | Shell, PostgreSQL, DataGrip, OracleApex, Tableau, Excel, Access | relacije, ključevi, integriteti, osnovni i složeni upiti, ERA dijagram, UMP, tipovi veza, normalne forme, okidači, indeksi, izrada aplikacije za funkciju održavanja Vodovod Pula, izrada sustava računa (kupci, artikli, stavke, računi), analiza podataka, zvjezdasta shema, skladište podataka, dimenzije, činjenice, ETL proces, OLAP |
 | Solidity | Remix IDE | rad u blockchainu, kriptovalutom, Ethernium, digitalni potpis, digitalni ugovori |
-| | Microsoft Dynamics Business Central | ERP sustav, vođenje poslovanja poduzeća, financije, nabava, skladište, prodaja |
+| | Microsoft Dynamics 365 Business Central | ERP sustav, vođenje poslovanja poduzeća, financije, nabava, skladište, prodaja |
 | | Figma | persone, korisničke priče, skice, prototip, aplikacija za autoškolu |
 | | Wireshark | slojevi, klijent-poslužitelj, DNS, TCP, UDP, MAC, LAN, IPv4, IPv6, presretanje prometa i paketa |
 | | 3D printeri | praksa, printanje dijelova za mehanički sat |
