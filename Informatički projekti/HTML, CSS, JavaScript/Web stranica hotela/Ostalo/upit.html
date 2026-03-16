@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hr" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Upit</title>
+    <link rel="icon" type="image/x-icon" href="../Dokumenti/slike/logo.png">
+    <meta name="autor" content="Mateo Zović">
+    <meta name="opis" content="Stranica na kojoj se postavljaju razni upiti i nejasnoće">
+    <meta name="ključne_riječi" content="upit, informacije, tehnička podrška, nejasnoće, problemi">
+    <meta name="datum" content="22.03.2023.">
+    <script src="../js/mzovic21.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/mzovic21.css">
+    <link rel="stylesheet" href="../css/mzovic21_responzivni_dizajn.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="../Dokumenti/slike/logo.png" alt="logo" usemap="#slika-logo">
+
+            <map name="slika-logo">
+                <area shape="rect" coords="1,4,111,110" href="../index.html" title="Početna" alt="Početna">
+            </map>
+            Korisnička služba
+        </h1>
+    </header>
+    <nav>
+        <div class="izbornik">IZBORNIK
+        <div class="poveznice">    
+        <a href="../index.html">POČETNA</a>
+        <a href="../Dokumentacija/autor.html">AUTOR</a>
+        <a href="../Dokumentacija/dokumentacija.html">DOKUMENTACIJA</a>
+        <a href="slike.html">GALERIJA SLIKA</a>
+        <a href="obrazac.html">OBRAZAC</a>
+        <a href="upit.html" class="posebna">UPIT</a>
+        <a href="cjenik.html">CJENIK USLUGA</a>
+        </div>
+        </div>
+    </nav>
+    <main>
+        <h1 id="obrazac2">Obrazac za kontakt/upit</h1>
+        <form method="POST" action="https://spider.foi.hr/OWT/materijali/ispis_forme.php" novalidate>
+        <fieldset>
+            <legend><h3>Upit:</h3></legend>
+            <div>
+                <input type="text" id="predmet" name="predmet" maxlength="30" placeholder="Predmet (Naslov upita)" required>
+            </div>
+            <br>
+            <div>
+                <input type="radio" id="upit1" name="upit" value="1" checked>Informacije
+                <input type="radio" id="upit2" name="upit" value="2">Prijava kvara
+                <input type="radio" id="upit3" name="upit" value="3">Produženje smještaja
+                <input type="radio" id="upit4" name="upit" value="4">Ostalo
+            </div>
+            <br>
+            <div id="greskaTeksta"></div>
+            <textarea id="poruka" name="poruka" rows="10" cols="40" maxlength="1000" required></textarea>
+            <br>
+            <button type="submit">Pošalji</button>
+        </fieldset>
+        </form>
+    </main>
+    
+    <footer>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fspider.foi.hr%2FOWT%2F2023%2Fzadaca_02%2Fmzovic21%2FOstalo%2Fupit.html">
+            <img src="https://spider.foi.hr/OWT/materijali/slike/HTML5.png" alt="HTML5" class="okvir"></a>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fspider.foi.hr%2FOWT%2F2023%2Fzadaca_02%2Fmzovic21%2FOstalo%2Fupit.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img src="https://spider.foi.hr/OWT/materijali/slike/CSS3.png" alt="CSS3" class="okvir"></a>
+        <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">
+            <img alt="Creative Commons License"  src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"></a>
+        <br>
+        &copy; 2023 Mateo Zović. Sva prava pridržana.
+    </footer>
+</body>
+</html>

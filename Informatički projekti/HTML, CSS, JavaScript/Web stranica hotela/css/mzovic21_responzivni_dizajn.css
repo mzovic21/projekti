@@ -1,0 +1,171 @@
+@media screen and (max-width:480px){
+    nav{
+        width: 100%;
+        height: auto;
+        background-image: linear-gradient(navy, #004c63);
+    }
+
+    header{
+        background-color:#000080;
+    }
+
+    main{
+        background-image: linear-gradient(#aeaeff, #4dd5ff);
+        color: black;
+    }
+
+    h2{
+        color: black;
+    }
+
+    footer{
+        background-image: linear-gradient(rgba(6, 6, 162, 0.849), navy);
+        color: aliceblue;
+    }
+
+    .izbornik {
+        position: relative;
+        color: rgb(87, 169, 236);
+    }
+      
+    .poveznice {
+        display: none;
+    }
+      
+    .izbornik:hover .poveznice {
+        display: block;
+    }
+      
+    .izbornik:hover {
+        background-image: linear-gradient(navy, #004c63);
+    }
+
+    .responzivno{
+        width: 100%;
+        height: auto;
+    }
+    .responzivno_autor {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+      }
+
+    table,tr,td,th{
+        display: block;
+    }
+    input[type=text], [type=password], [type=email], [type=tel], [type=date], [type=time], [type=radio], textarea, [list]{
+        width: 100%;
+        padding: 15px;
+        border: 2px solid #ffffff;
+        resize: vertical;
+        box-sizing: border-box;
+    }
+    
+    label {
+        display: inline-block;
+    }
+
+    .animacija:hover img {
+        transform: scale(1);
+    }
+    figure{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    img{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        height: auto;
+    }
+    table th:first-child{
+        display: table-cell;
+    }
+    table td:first-child{
+        display: table-cell;
+    }
+    table td:not(:first-child){
+        display: none;
+    }
+    table td:not(:first-child){
+        display: none;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    header{
+        background-color: black;
+    }
+    nav{
+        width: 100%;
+        height: auto;
+        background-color: black;
+        background-image: none;
+    }
+
+    main{
+        background-color: black;
+        background-image: none;
+        color: wheat;
+    }
+
+    h2{
+        color: white;
+    }
+
+    footer{
+        background-color: black;
+        background-image: none;
+    }
+
+    .izbornik {
+        color: rgb(87, 169, 236);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    nav{
+        width: 100%;
+        height: auto;
+        background-image: linear-gradient(navy, #004c63);
+    }
+
+    header{
+        background-color:#000080;
+    }
+
+    main{
+        background-image: linear-gradient(#aeaeff, #4dd5ff);
+        color: black;
+    }
+
+    h2{
+        color: black;
+    }
+
+    footer{
+        background-image: linear-gradient(rgba(6, 6, 162, 0.849), navy);
+        color: aliceblue;
+    }
+
+    .izbornik {
+        color: rgb(87, 169, 236);
+    }
+
+    fieldset{
+        width: 46%;
+        padding: 5px;
+        box-sizing: border-box;    
+    }
+
+    .desni{
+        float:left;
+        margin-right: 2px;
+    }
+    .lijevi{
+        float:left;
+        margin-left: 0px;
+    }
+}
+
