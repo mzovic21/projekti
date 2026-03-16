@@ -3,7 +3,7 @@ U nastavku su navedene informatičke vještine, koje uključuju različite progr
 
 **Informatičke vještine**
 
-| Programski jezik | Alat | Iskustvo |
+| Programski jezik | Platforma | Iskustvo |
 |------------------|-------|----------|
 | C++  | Dev-C++, Visual Studio Code | osnove programiranja, pokazivači, sortiranja, dinamičko alociranje, rekurzije, objektno orijentirano programiranje, funkcije, metode, klase, vezana lista, operacijski sustavi, prekidi, dretve, semafori, monitori, straničenje, signali, upravljanje jezgrama i procesima, strukture podataka, red, stog, binarno stablo, hrpa, općenito stablo, složenost koda, biblioteke, robot upravljan kontrolerom, programiranje senzora |
 | C# | .NET, Visual Studio, Unity | dijagrami aktivnosti, slijeda, ERA model, klase, Use Case dijagrami, Windows aplikacija za evidenciju zaposlenika, razvoj vlastite 2D platformer videoigre |
@@ -18,7 +18,7 @@ U nastavku su navedene informatičke vještine, koje uključuju različite progr
 
 **Organizacijske vještine**
 
-| Područje / Alat  | Iskustvo |
+| Područje / Platforma  | Iskustvo |
 |--------------------------|----------|
 | Organizacija | trategija, misija, vizija, strateški ciljevi, SMART, struktura, poznavanje vrijednosti organizacije te kako organizacije funkcioniraju |
 | Ekonomika | pojmovi mikroekonomije i makroekonomije, ponuda i potražnja, trgovačka društva, bilanca, računi dobiti i gubitka |
@@ -30,4 +30,4 @@ U nastavku su navedene informatičke vještine, koje uključuju različite progr
 | Strategijski menadžment | izrada poslovnog plana izmišljenog poduzeća, SMART ciljevi, analiza okoline, SWOT, BCG, plan poslovanja, financije |
 | Strateško planiranje informacijskih sustava | analiza poduzeća, SWOT, prijedlog uvođenja mobilne aplikacije kontrole skladišta |
 | Upravljanje informatizacijom | COBIT i ITIL procesi |
-| Mjerenje organizacijskih performansi | ADOscore, Balance Scorecard, mapa ciljeva, mapa mjera, SWOT, strategije |
+| Mjerenje organizacijskih performansi, ADOscore| Balance Scorecard, mapa ciljeva, mapa mjera, SWOT, strategije |
