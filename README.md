@@ -3,7 +3,7 @@ U nastavku su navedene informatičke vještine, koje uključuju različite progr
 
 **Informatičke vještine**
 
-| Programski jezik / alat  | Iskustvo |
+| Programski jezik / Alat  | Iskustvo |
 |--------------------------|----------|
 | Access | izrada sustava računa (kupci, artikli, stavke, računi) |
 | C++  | osnove programiranja, pokazivači, sortiranja, dinamičko alociranje, rekurzije, objektno orijentirano programiranje, funkcije, metode, klase, vezana lista, operacijski sustavi, prekidi, dretve, semafori, monitori, straničenje, signali, upravljanje jezgrama i procesima, strukture podataka, red, stog, binarno stablo, hrpa, općenito stablo, složenost koda, biblioteke |
@@ -15,31 +15,12 @@ U nastavku su navedene informatičke vještine, koje uključuju različite progr
 | Figma | persone, korisničke priče, skice, prototip, aplikacija za autoškolu |
 
 
-Organizacijske vještine:
+**Organizacijske vještine**
 
-Organizacija
--> strategija, misija, vizija, strateški ciljevi, struktura
--> poznavanje vrijednosti organizacije te kako organizacije funkcioniraju
-
-Osnove ekonomike za informatičare
--> pojmovi mikroekonomije i makroekonomije, ponuda i potražnja, trgovačka društva, bilanca, računi dobiti i gubitka
-
-Poslovno odlučivanje
--> DELPHI metoda, brainstorming, AHP metoda
-
-Modeliranje poslovnih procesa
--> WebSphere
--> AS IS i TO BE modeli, BPMN dijagrami, prijedlog unaprjeđenja poslovnog procesa
-
-Operacijska istraživanja
--> linearno programiranje, teorija igara, transportni problem, SIMPLEX min, max, PERT/CRM, metoda kritičnog puta
-
-
-
-
-
-| Ime  | Godine | Grad   |
-|------|--------|--------|
-| Ivan | 25     | Zagreb |
-| Ana  | 30     | Split  |
-| Marko| 22     | Rijeka |
+| Područje / Alat  | Iskustvo |
+|--------------------------|----------|
+| Organizacija | trategija, misija, vizija, strateški ciljevi, struktura, poznavanje vrijednosti organizacije te kako organizacije funkcioniraju |
+| Ekonomika | pojmovi mikroekonomije i makroekonomije, ponuda i potražnja, trgovačka društva, bilanca, računi dobiti i gubitka |
+| Poslovno odlučivanje | DELPHI metoda, brainstorming, AHP metoda |
+| Modeliranje poslovnih procesa, WebSphere | AS IS i TO BE modeli, BPMN dijagrami, prijedlog unaprjeđenja poslovnog procesa |
+| Operacijska istraživanja | linearno programiranje, teorija igara, transportni problem, SIMPLEX min, max, PERT/CRM, metoda kritičnog puta |
