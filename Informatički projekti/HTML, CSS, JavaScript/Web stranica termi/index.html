@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+
+<html lang="hr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Terme Pitomača</title>
+
+    <!-- FontAwesome CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Fontovi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+
+    <!-- TODO: obrisati
+  Lokalna css datoteka -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- TODO: ubaciti CSS kod
+  Ovdje ubaciti CSS kod dok si gotov sa početnom stranicom -->
+    <style></style>
+  </head>
+
+  <body>
+    <nav class="navbar font-izbornik">
+      <!-- Navbar links -->
+      <ul class="navbar-nav flex-column">
+        <!-- First Row -->
+        <li class="nav-item nav-odabrana">
+          <a class="nav-link fixed-width" href="index.html">Početna</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fixed-width" href="tlocrt.html">Izgled i tlocrt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fixed-width" href="cjenik.html">Cjenik</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fixed-width" href="onama.html">O nama</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fixed-width" href="kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Logo i naslovna slika -->
+    <div class="container">
+      <div class="image-container naslov">
+        <a href="./index.html">
+          <img
+            src="./images/Logo_Terme_Pitomača_nemapozadine.png"
+            alt="Terme Pitomača"
+            class="centered-image"
+          />
+        </a>
+        <div class="tekst-uz-naslov font-sadrzaj">
+          Dravska 11, 33405 Pitomača
+        </div>
+      </div>
+    </div>
+
+    <!-- Gumb rezerviraj -->
+    <a
+      class="gumb-rezerviraj font-naslov-1"
+      href="rezervacija.html"
+      role="button"
+      >Rezerviraj</a
+    >
+
+    <!-- Ikone -->
+    <div class="container icon-container">
+      <div class="row">
+        <div class="col text-center icon">
+          <p class="font-naslov-1">ENG</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center icon">
+          <i class="fas fa-circle-user"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center icon">
+          <i class="fas fa-envelope"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center icon">
+          <i class="fas fa-phone"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center icon">
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center icon">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center icon">
+          <i class="fab fa-x-twitter"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center icon">
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </div>
+
+    <main>
+      <!-- Navigacija za manje ekrane -->
+      <div class="container" role="navigation">
+        <div class="row">
+          <div class="ml-auto">
+            <div class="navbar-alternative navbar navbar-light font-izbornik">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse text-right"
+                id="navbarNavDropdown"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link nav-link-alternative" href="index.html"
+                      >Početna
+                    </a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link nav-link-alternative" href="tlocrt.html"
+                      >Izgled i tlocrt</a
+                    >
+                  </li>
+                  <li class="nav-item active">
+                    <a
+                      class="nav-link nav-link-alternative"
+                      href="rezervacija.html"
+                      >Rezerviraj</a
+                    >
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link nav-link-alternative" href="cjenik.html"
+                      >Cjenik</a
+                    >
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link nav-link-alternative" href="onama.html"
+                      >O nama</a
+                    >
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link nav-link-alternative" href="kontakt.html"
+                      >Kontakt</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Obiteljski paket -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="slika">
+              <img
+                alt="Slika 1"
+                class="slika img-fluid"
+                src="images\pexels-photo-6948243.webp"
+              />
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 color-col">
+            <p class="naslov-slike font-naslov-1">Obiteljski paket</p>
+            <p class="sadrzaj-uz-sliku font-sadrzaj">
+              Stvorite nezaboravno iskustvo za svoju obitelj uz ovaj obiteljski
+              paket - jednostavan, elegantan i povezujući način za dijeljenje
+              trenutaka i stvaranje uspomena koje će trajati cijeli život.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paket za parove -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 color-col">
+            <p class="naslov-slike font-naslov-1">Paket za parove</p>
+            <p class="sadrzaj-uz-sliku font-sadrzaj">
+              Oživite svoju ljubavnu priču uz paket za parove - savršeno mjesto
+              za dijeljenje intimnih trenutaka, planiranje budućnosti i
+              izražavanje ljubavi na poseban i jedinstven način.
+            </p>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="slika">
+              <img
+                alt="Slika 2"
+                class="slika slika2 img-fluid"
+                src="images\premium_photo-1661411476488-a27e78d27db8.avif"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paket za umirovljenike -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="slika">
+              <img
+                alt="Slika 1"
+                class="slika img-fluid"
+                src="images\photo-1483137140003-ae073b395549.avif"
+              />
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 color-col">
+            <p class="naslov-slike font-naslov-1">Paket za umirovljenike</p>
+            <p class="sadrzaj-uz-sliku font-sadrzaj">
+              Vaša privatna oaza za dijeljenje životnih iskustava, putovanja i
+              hobija s bližnjima. Udobno se smjestite i pustite da vaše priče
+              inspiriraju i povežu generacije.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Paket za grupe -->
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 color-col">
+            <p class="naslov-slike font-naslov-1">Paket za grupe</p>
+            <p class="sadrzaj-uz-sliku font-sadrzaj">
+              Stvaranje zajednice nikada nije bilo važnije, a grupni paket
+              upravo to olakšava više nego ikad! Bez obzira radite li na
+              projektu, klubu ili udruzi, ovaj paket vam omogućuje da se
+              povežete, surađujete i rastete zajedno.
+            </p>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="slika">
+              <img
+                alt="Slika 2"
+                class="slika slika2 img-fluid"
+                src="images\herbs-3119132_1280.jpg"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer font-poveznice-i-ostalo">
+      <!-- Ikone alternativne-->
+      <div class="container icon-container-alternative">
+        <div class="row">
+          <div class="col text-center icon-alternative">
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <div class="col text-center icon-alternative">
+            <i class="fab fa-x-twitter"></i>
+          </div>
+          <div class="col text-center icon-alternative">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="col text-center icon-alternative">
+            <i class="fab fa-youtube"></i>
+          </div>
+          <div class="col text-center icon-alternative">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="col text-center icon-alternative">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="col text-center icon-alternative">
+            <p class="font-naslov-2">ENG</p>
+          </div>
+          <div class="col text-center icon-alternative">
+            <i class="fas fa-circle-user"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-left">
+            <p>
+              <i class="fa-solid fa-map-pin"></i>
+              &nbsp; &nbsp;Dravska 11, 33405 Pitomača <br /><br />
+              <i class="fas fa-phone"></i>&nbsp; &nbsp;+385 99 123 4567
+              <br /><br /><i class="fa-solid fa-at"></i>
+              &nbsp; &nbsp;info@terme.com
+            </p>
+          </div>
+          <div class="col-4 col-center">
+            <p>
+              Terme Pitomača d.o.o, sva prava pridržana<br />
+              Pravna obavijest | Korištenje kolačića<br /><br />
+              Radno vrijeme: <br />Radnim danom: 8:00 - 16:00 <br />Vikendom i
+              praznicima: 10:00 - 13:00
+            </p>
+          </div>
+          <div class="col-4 col-right">
+            <p>
+              <a href="onama.html">O nama</a> <br /><br />
+              <a href="tlocrt.html">Izgled i tlocrt</a> <br /><br />
+              <a href="cjenik.html">Cijene i ponude</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

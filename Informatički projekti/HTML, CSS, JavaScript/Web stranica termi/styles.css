@@ -1,0 +1,388 @@
+/*
+  Varijable boja
+*/
+
+:root {
+  --boja-bez: #edeec8;
+  --boja-zelena: #bbdd99;
+  --boja-plava: #4e91cf;
+  --boja-pozadina: #f5f5e9;
+  --boja-siva: #8a8a8a;
+  --boja-ikone: #4e91cf;
+}
+
+/*
+  Postavke responzivnog dizajna
+*/
+
+@media (max-width: 991px) {
+  main {
+    margin-top: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  footer {
+    padding-top: 0px;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .icon-container {
+    display: none;
+  }
+
+  .gumb-rezerviraj {
+    display: none;
+  }
+
+  .navbar-alternative {
+    display: inline;
+  }
+
+  .icon-container-alternative {
+    display: inline;
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    margin-top: 60px;
+    margin-left: 190px; /* To prevent content from being hidden behind the navbar */
+    margin-right: 190px;
+  }
+
+  footer {
+    padding-top: 30px;
+  }
+
+  .navbar-alternative {
+    display: none;
+  }
+
+  .icon-container-alternative {
+    display: none;
+  }
+}
+
+/*
+  Dodano
+*/
+
+.navbar-alternative {
+  margin-right: 36px;
+}
+
+.nav-link-alternative {
+  margin-top: 10px;
+  color: black;
+}
+
+#nav-alt {
+  margin-top: 0px;
+}
+
+.icon-container-alternative {
+  margin-bottom: 300px;
+}
+
+.icon-alternative {
+  font-size: 25px;
+  color: var(--boja-ikone);
+}
+/*
+  Ikone
+*/
+
+.icon-container {
+  position: absolute;
+  right: 50px;
+  width: 90px;
+  height: 600px;
+  background-color: var(--boja-pozadina);
+}
+
+.icon {
+  margin-top: 30px; /* Adjust the spacing between icons */
+
+  font-size: 40px;
+  width: 40px;
+  height: 40px;
+  color: var(--boja-ikone);
+}
+
+/*
+  Podnožje
+*/
+
+.footer {
+  background-color: #edeec8;
+}
+.footer .col-left {
+  text-align: left;
+}
+.footer .col-center {
+  text-align: center;
+}
+.footer .col-right {
+  text-align: right;
+}
+
+/*
+  Sadržaj - slike 
+*/
+
+main .container {
+  padding-bottom: 50px;
+}
+
+.slika {
+  /*width: 500px;*/
+  /*overflow: hidden;*/
+  border-radius: 5px;
+  box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.certifikat {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+/*
+  Sadržaj - tekst uz slike 
+*/
+
+.naslov-slike {
+  margin-top: 10px;
+  margin-left: 60px;
+  text-align: left;
+}
+
+.sadrzaj-uz-sliku {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+
+  text-align: left;
+  background-color: var(--boja-bez);
+  border-radius: 4px;
+}
+
+/*
+  Sadržaj - pozadinski element uz sliku
+*/
+
+.color-col {
+  background-color: var(--boja-bez);
+}
+
+.background-container {
+  /*
+  left: 140px;
+  right: 0;
+  bottom: 0;*/
+  position: absolute;
+  height: 200px;
+  background-color: var(--boja-bez);
+  border-radius: 4px;
+  z-index: -1;
+  max-width: 1000px;
+  overflow: hidden;
+}
+
+/*
+  Gumb rezerviraj
+*/
+
+.gumb-rezerviraj {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 180px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px; /* Center text vertically */
+  background-color: var(--boja-bez);
+  border-radius: 80px;
+  box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*
+  Tekst uz logo
+*/
+
+.naslov {
+  position: relative;
+}
+
+.tekst-uz-naslov {
+  position: relative;
+}
+
+/*
+  Logo
+*/
+
+.centered-image {
+  width: 400px;
+  height: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image-container {
+  text-align: center;
+}
+
+/*
+    Navigacija
+*/
+
+nav .navbar-nav .nav-link {
+  text-align: center;
+  color: #000000;
+}
+
+.fixed-width {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+nav.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: 1000; /* Ensure it's above other content */
+  width: 150px;
+  background-color: var(--boja-bez);
+  padding: 0px;
+}
+
+nav.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-odabrana {
+  background-color: var(--boja-zelena);
+}
+
+/*
+    Boje
+*/
+
+body {
+  background-color: var(--boja-pozadina);
+}
+
+a[href] {
+  color: black;
+}
+
+/*
+    Fontovi
+*/
+.font-naslov-1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: normal;
+}
+
+.font-naslov-2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.font-izbornik {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-size: 15px;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.font-podnaslov {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+}
+
+.font-sadrzaj {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.font-poveznice-i-ostalo {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.naslov-stranice {
+  text-align: center;
+}
+
+.naslov-tablice-boja {
+  color: var(--boja-plava);
+}
+
+/* SLIKA */
+.slika-tlocrt {
+  height: 130%;
+  width: 130%;
+}
+
+.tekst-slike-certifikat {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+
+  text-align: left;
+  background-color: var(--boja-pozadina);
+}
+
+/* FORMA ZA UNOS PRIJEDLOGA */
+.forma-okvir {
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+
+  text-align: left;
+  background-color: var(--boja-bez);
+  border-radius: 4px;
+}
+
+/* GUMB */
+.gumb-dizajn {
+  background-color: var(--boja-zelena);
+  color: #000000;
+}
+
+/*
+  Kontakt - kontakt informacije
+*/
+
+.kontakt-informacije {
+  margin-top: 30px; /* Adjust the spacing between icons */
+
+  width: 40px;
+  height: 40px;
+  color: black;
+}
