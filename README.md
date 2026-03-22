@@ -1,4 +1,4 @@
-Ovaj direktorij predstavlja skup znanja koja sam usvojio za vrijeme studiranja na Fakultetu organizacije i informatike, prijediplomski smjer Informacijski i poslovni sustavi te diplomski smjer Organizacija poslovnih sustava. <br>
+Ovaj direktorij predstavlja skup znanja koja sam usvojio za vrijeme studiranja na **Fakultetu organizacije i informatike**, prijediplomski smjer **Informacijski i poslovni sustavi** te diplomski smjer **Organizacija poslovnih sustava**. <br>
 U nastavku su navedene informatičke vještine, koje uključuju različite programske jezike te organizacijske vještine, koje pokazuju širi raspon znanja o poznavanju kako organizacije i poduzeća funkcioniraju. 
 
 **Informatičke vještine**
