@@ -1,0 +1,11 @@
+Diplomski rad je trenutno u izradi, a ovdje su navedene osnovne informacije o samoj temi rada.
+
+Tema: PRIMJENA PRINCIPA INDUSTRIJE 5.0 U PAMETNIM DOMOVIMA
+
+Opis:
+U diplomskom radu potrebno je opisati industriju 4.0 i prijelaz na industriju 5.0. Razraditi primjenu industrije 5.0 u različitim djelatnostima i sektorima ljudskog djelovanja. Definicija pametnog doma, razvoj i tehnologije koje se koriste u pametnom domu. Nakon definiranja ključnih pojmova povezati principe industrije 5.0 i pametnog doma. Uloga umjetne inteligencije, održivosti (ekološka učinkovitost), psihološkog aspekta, sigurnosti i optimizacije. Primjeniti koncepate pametnog doma na veće objekte, poput organizacija, hotela, muzeja, industrijskih postrojenja itd. 
+U praktičnom dijelu treba razviti: Povezani sustav pametnog doma koji se sastoji od 4 komponente.
+1. Fizički prototip pametnog doma (Arduino / ESP32 kontroler, jednostavni senzori, LED rasvjeta, servo motor, mali ventilator)
+2. Simulaciju pametnog doma u Unity (koristi se kao digitalni blizanac, prikazivanje podataka u realnom vremenu)
+3. Mobilnu aplikacija za upravljanje pametnim domom (React Native / Flutter, prikaz podataka, uključivanje / isključivanje uređaja)
+4. Analizu energetske potrošnje (Power BI / Tableau, dnevna, mjesečna potrošnja.)
