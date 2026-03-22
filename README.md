@@ -20,7 +20,7 @@ U nastavku su navedene informatičke vještine, koje uključuju različite progr
 
 | Područje / Platforma  | Iskustvo |
 |--------------------------|----------|
-| Organizacija | trategija, misija, vizija, strateški ciljevi, SMART, struktura, poznavanje vrijednosti organizacije te kako organizacije funkcioniraju |
+| Organizacija | strategija, misija, vizija, strateški ciljevi, SMART, struktura, poznavanje vrijednosti organizacije te kako organizacije funkcioniraju |
 | Ekonomika | pojmovi mikroekonomije i makroekonomije, ponuda i potražnja, trgovačka društva, bilanca, računi dobiti i gubitka |
 | Poslovno odlučivanje | DELPHI metoda, brainstorming, AHP metoda |
 | Modeliranje poslovnih procesa, WebSphere | AS IS i TO BE modeli, BPMN dijagrami, prijedlog unaprjeđenja poslovnog procesa |
@@ -31,3 +31,4 @@ U nastavku su navedene informatičke vještine, koje uključuju različite progr
 | Strateško planiranje informacijskih sustava | analiza poduzeća, SWOT, prijedlog uvođenja mobilne aplikacije kontrole skladišta |
 | Upravljanje informatizacijom | COBIT i ITIL procesi |
 | Mjerenje organizacijskih performansi, ADOscore| Balance Scorecard, mapa ciljeva, mapa mjera, SWOT, strategije |
+| ERP sustavi, Microsoft Dynamics 365 Business Central | vođenje poslovanja poduzeća, odjeli financije, nabava, skladište, prodaja |
